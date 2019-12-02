@@ -33,9 +33,4 @@ li a:hover{
 }
  .container{
    float: left;
-   width: 33.33%;
  }
- .container.middle{
-   width: 30%;
- }
-
