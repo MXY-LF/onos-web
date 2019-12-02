@@ -1,0 +1,13 @@
+<h3>Network Resources Details </h3>
+<ul class="resources">
+  <p>
+    <span class="badgeL">Link</span>
+    <span class="badgeW">W-Reserved</span>
+    <span class="badgeK">K-Reserved</span>
+  </p>
+  <li *ngFor="let resource of resources">
+    <span class="badgeL">{{resource.sourceNode}}-{{resource.destinationNode}}</span>
+    <span class="badgeW">{{resource.wavelengthReserved}}</span>
+    <span class="badgeK">{{resource.keyReserved}}</span>
+  </li>
+</ul>

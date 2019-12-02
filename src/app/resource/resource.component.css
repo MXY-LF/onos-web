@@ -1,0 +1,77 @@
+.resources {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 25em;
+}
+
+.resources li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color:white;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.resources .text {
+  position: relative;
+  top: -3px;
+}
+
+.resources .badgeL {
+  width:6em;
+  display: inline-block;
+  font-size: small;
+  color: black;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:wheat;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .5em;
+  border-radius: 2px 0 0 2px;
+}
+.resources .badgeW {
+  width: 6em;
+  display: inline-block;
+  font-size: small;
+  color: black;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:beige;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .5em;
+  border-radius: 2px 0 0 2px;
+}
+.resources .badgeK {
+  width: 6em;
+  display: inline-block;
+  font-size: small;
+  color: black;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:blanchedalmond;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .5em;
+  border-radius: 2px 0 0 2px;
+}
+.resources p{
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color:white;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
