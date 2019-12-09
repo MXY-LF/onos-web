@@ -30,7 +30,7 @@ export class Node implements d3.SimulationNodeDatum {
   }
 
   get color() {
-    const index = Math.floor(APP_CONFIG.SPECTRUM.length);
+    const index = Math.floor(APP_CONFIG.SPECTRUM.length * this.normal());
     return APP_CONFIG.SPECTRUM[index];
   }
 }
